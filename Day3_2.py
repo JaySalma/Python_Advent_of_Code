@@ -44,6 +44,6 @@ def answer(number_of_hits):
 
 
 for i in variants_to_check:
-    trees_hit.append(check_hits(input_matrix,i[0],i[1]))
+    trees_hit.append(check_hits(input_matrix,*i))
 next
 print(answer(trees_hit)) 
